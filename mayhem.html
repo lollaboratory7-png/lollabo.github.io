@@ -8,11 +8,44 @@
     h1 { color: #1e90ff; }
     a { color: #ff4500; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    table { 
+  border-collapse: collapse; 
+  width: 100%; 
+}
+th, td { 
+  border: 1px solid #aaa; 
+  padding: 8px; 
+  text-align: center; 
+}
+th { 
+  background-color: #1e90ff; 
+  color: white; 
+}
+tr:nth-child(even) { 
+  background-color: #f0f8ff; 
+}
   </style>
 </head>
 <body>
   <h1>メイヘムオーグメント一覧１</h1>
   <a href="index.html">トップページに戻る</a>
   <p>ここに記事の内容を書きます。</p>
+  <table border="1">
+  <tr>
+    <th>画像</th>
+    <th>オーグメント名</th>
+    <th>効果</th>
+  </tr>
+  <tr>
+    <td>カメラA</td>
+    <td>ミラーレス</td>
+    <td>★★★★☆</td>
+  </tr>
+  <tr>
+    <td>カメラB</td>
+    <td>一眼レフ</td>
+    <td>★★★☆☆</td>
+  </tr>
+</table>
 </body>
 </html>
